@@ -1,6 +1,7 @@
 # cuda
 
 **Pinned Memory**
+[source](https://developer.nvidia.com/blog/how-optimize-data-transfers-cuda-cc/)
 *   the data is copied to pinned memory and then copied to gpu memory
 *   using pinned memory on host using the command cudaMallocHost(),  cudaHostAlloc(), and deallocate it with cudaFreeHost(). 
 *   the pinned memory is copied to GPU, 
